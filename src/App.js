@@ -5,8 +5,6 @@ import Card from './components/cards/Card';
 import {useSelector,useDispatch} from "react-redux"
 import { failedChoice,successChoice } from './components/players/playersActions';
 import { matched } from './components/cards/cardSlice';
-import { useHistory } from 'react-router-dom';
-import {  BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Results from './components/results/Results';
 // import ChangeRoute from './components/ChangeRoute';
 
