@@ -6,7 +6,6 @@ import {useSelector,useDispatch} from "react-redux"
 import { failedChoice,successChoice } from './components/players/playersActions';
 import { matched } from './components/cards/cardSlice';
 import Results from './components/results/Results';
-// import ChangeRoute from './components/ChangeRoute';
 
 const cardImages = [
   {"src":"/imgs/cplusplus.png",matched:false,index:-1},
@@ -30,7 +29,6 @@ const App = ()=> {
   const [cardTwo,setCardTwo] = useState(null)
   const [playerOnename,setPLayerOneName] = useState("")
   const [playerTowname,setPLayerTwoName] = useState("")
-  const [tries,setTries] = useState(0)
   const [disapled,setDisapled] = useState(false)
   const [player,setPlayer] = useState("play-player1")
   const [endGame,setEndGame] = useState(false)
@@ -69,7 +67,6 @@ const App = ()=> {
   const resetTurn= ()=>{
     setCardOne(null)
     setCardTwo(null)
-    setTries(prevTries => prevTries + 1);
     setDisapled(false)
   }
 
