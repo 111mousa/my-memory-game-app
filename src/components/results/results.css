@@ -1,0 +1,74 @@
+.table-atyle {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-atyle thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table-atyle th,
+.table-atyle td {
+    padding: 12px 15px;
+}
+
+.table-atyle tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-atyle tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table-atyle tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.results-container {
+    width: 540px;
+    margin: 40px auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+
+.player-result {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.player-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: aqua;
+}
+
+.result {
+    color: #6c757d;
+}
+
+.winner {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.winner-label {
+    font-weight: bold;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.winner-name {
+    font-weight: bold;
+    color: green;
+    font-style: italic;
+}
